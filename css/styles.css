@@ -70,12 +70,12 @@ img {
     max-width: 100%;
     object-fit: cover;
 }
-
+/* 
 .name-person {
     display: block;
     height: 380px;
     width: 264px;
-  }  
+  }   */
 
 .address {
     font-style: normal;
