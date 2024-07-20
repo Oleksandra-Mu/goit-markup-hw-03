@@ -118,6 +118,7 @@ img {
 .header-nav > .logo {
     display: inline-flex;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 h1, h2 {
