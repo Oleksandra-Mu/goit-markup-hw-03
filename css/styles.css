@@ -363,7 +363,7 @@ h2 {
     color: var(--light-color);
 }
 
-footer-logo {
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
