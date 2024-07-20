@@ -216,6 +216,7 @@ h2 {
     line-height: 1.5;
     font-weight: 500;
     color:var(--gray-color);
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -242,9 +243,23 @@ h2 {
     padding: 120px 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .team-members-names {
     text-align: center;
     padding-top: 32px;
+    margin-bottom: 8px;
 }
 
 .section-team {
@@ -348,6 +363,11 @@ h2 {
     color: var(--light-color);
 }
 
+a > .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .list-style {
     background-color: var(--white-color);
     width: calc((100% - 3 * 24px) / 4);
@@ -372,4 +392,12 @@ h2 {
 
 .features .title-list {
     margin-bottom: 8px;
+}
+
+header {
+    border-bottom: 1px solid var(--accent-color)
+}
+
+.team-textcard {
+    padding: 32px 0;
 }
